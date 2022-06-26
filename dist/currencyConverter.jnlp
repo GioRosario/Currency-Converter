@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="currencyConverter.jnlp">
+  <information>
+    <title>currencyConverter</title>
+    <vendor>John</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="currencyConverter.jar" size="5644" download="eager" />
+    <jar href="lib\jsoup-1.15.1.jar" size="429123" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="currencyconverter.CurrencyConverter"  name="currencyConverter" />
+  <update check="always"/>
+</jnlp>
